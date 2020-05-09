@@ -1,0 +1,3 @@
+#Write your timetable in this file
+#All lines starting with # will be ignored
+{7:55-8:40} = {Play games:tp}{Read book:relax}

@@ -1,0 +1,33 @@
+<ns0:Task xmlns:ns0="http://schemas.microsoft.com/windows/2004/02/mit/task" version="1.2">
+  <ns0:Triggers>
+    <ns0:TimeTrigger>
+      <ns0:StartBoundary>2020-05-08T08:00:00</ns0:StartBoundary>
+      <ns0:Enabled>true</ns0:Enabled>
+    </ns0:TimeTrigger>
+  </ns0:Triggers>
+  <ns0:Actions Context="Author">
+    <ns0:Exec>
+      <ns0:Command>D:\Focus\task.bat</ns0:Command>
+      <ns0:Arguments>2 9</ns0:Arguments>
+    </ns0:Exec>
+  </ns0:Actions>
+  <ns0:Settings>
+    <ns0:MultipleInstancesPolicy>IgnoreNew</ns0:MultipleInstancesPolicy>
+    <ns0:DisallowStartIfOnBatteries>false</ns0:DisallowStartIfOnBatteries>
+    <ns0:StopIfGoingOnBatteries>true</ns0:StopIfGoingOnBatteries>
+    <ns0:AllowHardTerminate>true</ns0:AllowHardTerminate>
+    <ns0:StartWhenAvailable>false</ns0:StartWhenAvailable>
+    <ns0:RunOnlyIfNetworkAvailable>false</ns0:RunOnlyIfNetworkAvailable>
+    <ns0:IdleSettings>
+      <ns0:StopOnIdleEnd>true</ns0:StopOnIdleEnd>
+      <ns0:RestartOnIdle>false</ns0:RestartOnIdle>
+    </ns0:IdleSettings>
+    <ns0:AllowStartOnDemand>true</ns0:AllowStartOnDemand>
+    <ns0:Enabled>true</ns0:Enabled>
+    <ns0:Hidden>false</ns0:Hidden>
+    <ns0:RunOnlyIfIdle>false</ns0:RunOnlyIfIdle>
+    <ns0:WakeToRun>true</ns0:WakeToRun>
+    <ns0:ExecutionTimeLimit>PT72H</ns0:ExecutionTimeLimit>
+    <ns0:Priority>7</ns0:Priority>
+  </ns0:Settings>
+</ns0:Task>
